@@ -1,0 +1,234 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* =========================
+   PAGE
+========================= */
+
+body {
+    background: #eff1f3;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    color: #222;
+
+    line-height: 1.45;
+}
+
+
+/* =========================
+   CV PAPER
+========================= */
+
+.cv {
+    width: 210mm;
+    min-height: 297mm;
+
+    margin: 25px auto;
+
+    padding: 45px 50px;
+
+    background: white;
+
+    border: 2px solid #333;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    border-top: 2.5px solid #000000;
+
+    padding-top: 18px;
+
+    margin-bottom: 25px;
+}
+
+
+header h1 {
+    font-size: 29px;
+
+    font-weight: 400;
+
+    margin-bottom: 5px;
+}
+
+
+header h3 {
+    color: #159447;
+
+    font-size: 15px;
+
+    font-weight: 400;
+
+    margin-bottom: 15px;
+}
+
+
+header p {
+    font-size: 13px;
+
+    margin-bottom: 2px;
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+section {
+    margin-bottom: 22px;
+}
+
+
+section h2 {
+    color: #159447;
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    margin-bottom: 7px;
+}
+
+
+/* =========================
+   GENERAL TEXT
+========================= */
+
+p {
+    font-size: 13px;
+}
+
+
+/* =========================
+   EDUCATION / EXPERIENCE
+========================= */
+
+article {
+    margin-bottom: 16px;
+}
+
+
+article h3 {
+    color: #0875d1;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    margin-bottom: 2px;
+}
+
+
+article h3 a {
+    color: #0875d1;
+
+    text-decoration: none;
+}
+
+
+article h3 a:hover {
+    text-decoration: underline;
+}
+
+
+article p {
+    margin-bottom: 4px;
+}
+
+
+/* =========================
+   LIST
+========================= */
+
+ul {
+    padding-left: 20px;
+
+    margin-top: 7px;
+
+    margin-bottom: 7px;
+}
+
+
+li {
+    font-size: 13px;
+
+    margin-bottom: 2px;
+}
+
+
+/* =========================
+   LINKS
+========================= */
+
+a {
+    color: #0875d1;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+
+    body {
+        background: white;
+    }
+
+    .cv {
+        width: 100%;
+
+        min-height: 100vh;
+
+        margin: 0;
+
+        padding: 30px 25px;
+
+        border: none;
+    }
+
+}
+
+
+/* =========================
+   PRINT / PDF
+========================= */
+
+@media print {
+
+    body {
+        background: white;
+    }
+
+    .cv {
+        width: 210mm;
+
+        min-height: 297mm;
+
+        margin: 0;
+
+        border: 2px solid #333;
+
+        box-shadow: none;
+    }
+}
